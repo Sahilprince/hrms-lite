@@ -1,4 +1,4 @@
-# HRMS Lite – Full-Stack Web Application
+<img width="381" height="425" alt="image" src="https://github.com/user-attachments/assets/db43739b-825d-4311-aea1-197f7a1c5a1e" /># HRMS Lite – Full-Stack Web Application
 
 A lightweight, production-ready **Human Resource Management System (HRMS Lite)** that allows an admin to manage employees and track daily attendance with a clean UI and RESTful backend.
 
@@ -51,27 +51,26 @@ This project was built as a full-stack coding assignment with a focus on:
 
 ## 📁 Project Structure
 
-root
-│
+```text
+root/
 ├── backend/
 │   ├── app/
-│   │   ├── api/
-│   │   ├── services/
-│   │   ├── database/
-│   │   └── schema/
-│   ├── run.py
-│   └── requirements.txt
-│
+│   │   ├── api/             # Route handlers
+│   │   ├── services/        # Business logic
+│   │   ├── database/        # DB connection & helper
+│   │   └── schema/          # Pydantic models
+│   ├── run.py               # Entry point
+│   └── requirements.txt     # Python dependencies
 └── frontend/
     ├── src/
     │   ├── pages/
     │   ├── components/
-    │   ├── services/
+    │   ├── services/        # API calls
     │   ├── styles/
-    │   └── types/
+    │   └── types/           # TS Interfaces
     └── package.json
 ---
-
+```
 ## 🔗 Live URLs
 
 > *Replace the links below with your deployed URLs*
