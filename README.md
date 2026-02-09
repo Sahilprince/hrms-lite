@@ -51,28 +51,25 @@ This project was built as a full-stack coding assignment with a focus on:
 
 ## 📁 Project Structure
 
-{t}bash
 root
 │
 ├── backend/
 │   ├── app/
-│   │   ├── api/          # Route handlers
-│   │   ├── services/     # Business logic
-│   │   ├── database/     # DB connection & helper
-│   │   └── schema/       # Pydantic models
-│   ├── run.py            # Entry point
-│   └── requirements.txt  # Python dependencies
+│   │   ├── api/
+│   │   ├── services/
+│   │   ├── database/
+│   │   └── schema/
+│   ├── run.py
+│   └── requirements.txt
 │
 └── frontend/
     ├── src/
     │   ├── pages/
     │   ├── components/
-    │   ├── services/     # API calls
+    │   ├── services/
     │   ├── styles/
-    │   └── types/        # TS Interfaces
+    │   └── types/
     └── package.json
-{t}
-
 ---
 
 ## 🔗 Live URLs
@@ -90,58 +87,58 @@ root
 ### 1️⃣ Backend Setup
 
 1. **Move into the backend folder:**
-   {t}bash
+   ```
    cd backend
-   {t}
+   ```
 
 2. **Create a virtual environment:**
-   {t}bash
+   ```
    python -m venv venv
-   {t}
+   ```
 
 3. **Activate the environment:**
    - **Windows:** `venv\Scripts\\activate`
    - **Linux / macOS:** `source venv/bin/activate`
 
 4. **Install dependencies:**
-   {t}bash
+   ```
    pip install -r requirements.txt
-   {t}
+   ```
 
 5. **Configure Environment:**
    Create a `.env` file inside `backend/` and add your MongoDB connection string:
-   {t}bash
+   ```
    MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/hrms_lite
-   {t}
+   ```
 
 6. **Run the backend:**
-   {t}bash
+   ```
    python run.py
-   {t}
+   ```
    *The backend will start on `http://localhost:5000`*
 
 ### 2️⃣ Frontend Setup
 
 1. **Move into the frontend folder:**
-   {t}bash
+   ```
    cd frontend
-   {t}
+   ```
 
 2. **Install dependencies:**
-   {t}bash
+   ```
    npm install
-   {t}
+   ```
 
 3. **Configure Environment:**
    Create a `.env` file inside `frontend/` and point to your local backend:
-   {t}bash
+   ```
    VITE_API_BASE_URL=http://localhost:5000/api
-   {t}
+   ```
 
 4. **Run the frontend:**
-   {t}bash
+   ```
    npm run dev
-   {t}
+   ```
    *The frontend will start on `http://localhost:5173`*
 
 ---
