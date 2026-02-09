@@ -1,4 +1,4 @@
-<img width="381" height="425" alt="image" src="https://github.com/user-attachments/assets/db43739b-825d-4311-aea1-197f7a1c5a1e" /># HRMS Lite – Full-Stack Web Application
+# HRMS Lite – Full-Stack Web Application
 
 A lightweight, production-ready **Human Resource Management System (HRMS Lite)** that allows an admin to manage employees and track daily attendance with a clean UI and RESTful backend.
 
@@ -69,8 +69,9 @@ root/
     │   ├── styles/
     │   └── types/           # TS Interfaces
     └── package.json
----
 ```
+---
+
 ## 🔗 Live URLs
 
 > *Replace the links below with your deployed URLs*
